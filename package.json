@@ -1,0 +1,29 @@
+{
+  "name": "optimized-portfolio-hero",
+  "version": "1.0.0",
+  "description": "High-performance, conversion-optimized hero section component",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "hero-section",
+    "portfolio",
+    "landing-page",
+    "performance",
+    "optimization"
+  ],
+  "author": "Stewart Kiprotich",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
