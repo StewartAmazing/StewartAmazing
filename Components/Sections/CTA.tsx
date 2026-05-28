@@ -46,7 +46,7 @@ export default function CTA() {
           >
             <Link
               href="/contact"
-              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-semibold text-zinc-950 transition-all hover:bg-zinc-100 hover:ring-2 hover:ring-white/50 hover:ring-offset-2 hover:ring-offset-zinc-950"
+              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-semibold text-zinc-950 transition-all hover:bg-zinc-100 hover:ring-2 hover:ring-white/50 hover:ring-offset-2 hover:ring-offset-zinc-950 btn-animate"
             >
               <span>Start a Project</span>
               <svg

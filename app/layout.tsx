@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import WhatsAppButton from "@/Components/Ui/WhatsAppButton";
 import "./globals.css";
 
@@ -42,9 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${geistSans.className} antialiased`}
-      >
+      <body className="font-sans antialiased">
         {children}
         <WhatsAppButton />
       </body>

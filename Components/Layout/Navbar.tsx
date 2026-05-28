@@ -20,22 +20,22 @@ export default function Navbar() {
 
           <ul className="flex gap-6 text-sm text-gray-300">
             <li>
-              <Link href="/#services" className="hover:text-white">
+              <Link href="/#services" className="nav-link text-gray-300 hover:text-white">
                 Features
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-white">
+              <Link href="/services" className="nav-link text-gray-300 hover:text-white">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-white">
+              <Link href="/contact" className="nav-link text-gray-300 hover:text-white">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-white">
+              <Link href="/about" className="nav-link text-gray-300 hover:text-white">
                 About
               </Link>
             </li>

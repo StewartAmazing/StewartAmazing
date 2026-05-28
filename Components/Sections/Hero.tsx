@@ -8,7 +8,7 @@ const btnBase =
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden py-32 lg:py-48 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section className="relative overflow-hidden py-32 lg:py-48 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 fade-in">
       {/* Soft  glow behind content */}
       <div
         className="pointer-events-none absolute -top-1/2 -right-1/4 h-[80vh] w-[80vh] rounded-full bg-indigo-500/20 blur-3xl"
